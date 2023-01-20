@@ -2,7 +2,17 @@ import matplotlib.pyplot as plt
 import pandas as pd
 
 class Visual_NaN_Quote:
+    '''
+    The Visual_NaN_Quote class is used to calculate, analyze and visualize the NaN values in a given Dataframe.
+    '''
     def __init__(self, df):
+        '''
+        Initialize the class with a Dataframe.
+        
+        Parameters:
+            df (Dataframe): The Dataframe that needs to be analyzed.
+        '''
+        
         self.df = df
         self.dict_nan_rate = {}
         self.dict_nan_separation = {}
@@ -26,7 +36,7 @@ class Visual_NaN_Quote:
         return self.dict_nan_rate
     
     def barchart_columns(self, fig_lenght, fig_wide):
-        """ 
+        '''
         Plot the barchart of the NaN rate for all columns of the dataset.
         The method 'nan_quote_df' should be activated. 
         
@@ -36,7 +46,7 @@ class Visual_NaN_Quote:
 
         OUTPUT
         None - Plot barchart
-        """
+        '''
         
         # Definie figure size
         plt.figure(figsize=(fig_lenght, fig_wide))
@@ -82,7 +92,7 @@ class Visual_NaN_Quote:
      
 
     def barchart_infl_nan_columns(self, fig_lenght, fig_wide):
-        """ 
+        '''
         Plot the barchart of the NaN rate for all columns of the dataset.
         The method 'infl_nan_columns' should be activated. 
         
@@ -92,7 +102,7 @@ class Visual_NaN_Quote:
 
         OUTPUT
         None - Plot barchart
-        """
+        '''
         
         # Definie figure size
         plt.figure(figsize=(fig_lenght, fig_wide))
