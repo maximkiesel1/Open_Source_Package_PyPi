@@ -1,7 +1,7 @@
 from setuptools import setup
 
-setup(name="NaN_Visual", 
+setup(name="Visual_NaN_Quote", 
  version="1.0",
- description="Gaussian distributions", 
- packages=['distributions'],
+ description="Calculate, analyze and visualize the NaN values in a given Dataframe", 
+ packages=['Visual_NaN_Quote'],
  zip_safe=False)
