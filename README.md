@@ -49,7 +49,7 @@ This method takes two parameters:
 - `column`: the target column to check the influence
 - `na_column`: the column with their nan rates
 
-It returns a dictionary with the unique values of a column as keys and the nan rates of the corresponding na_column.
+It returns a dictionary with the unique values of a column as keys and the nan rates of the corresponding 'na_column'.
 
 ## Plot the barchart of the NaN rate for all columns of the dataset
 
