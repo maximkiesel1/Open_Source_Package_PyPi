@@ -9,7 +9,7 @@ setup(
         'pandas',
         'matplotlib'
     ],
-    author='YMaxim Kiesel',
+    author='Maxim Kiesel',
     author_email='maxim.kiese@yahoo.com',
     url='https://github.com/maximkiesel1/Package_PyPi_NaN_Calc_Visual',
     license='MIT',
