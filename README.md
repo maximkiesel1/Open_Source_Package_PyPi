@@ -49,7 +49,7 @@ nc_vis.barchart_infl_nan_columns(fig_lenght, fig_wide)
 
 The fig_lenght and fig_wide parameters define the size of the plotted figure.
 Example
-'''
+```
 import NaN_Rate_Calc_Vis as nc
 import pandas as pd
 
@@ -60,7 +60,7 @@ nc_vis.nan_quote_df()
 nc_vis.barchart_columns(10, 5)
 nc_vis.infl_nan_columns("column1", "column2")
 nc_vis.barchart_infl_nan_columns(10, 5)
-'''
+```
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
