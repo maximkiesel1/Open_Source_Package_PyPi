@@ -1,9 +1,10 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 
-class Visual_NaN_Quote:
+class NaN_Rate_Calc_Vis:
     '''
-    The Visual_NaN_Quote class is used to calculate, analyze and visualize the NaN values in a given Dataframe.
+    The NaN_Rate_Calc_Vis class is used to calculate, analyze and 
+    visualize the NaN values in a given Dataframe.
     '''
     def __init__(self, df):
         '''
