@@ -28,7 +28,7 @@ This method returns a dictionary with the columns as keys and the corresponding 
 
 ## Plot the bar chart of the NaN rate for all columns of the dataset
 
-To plot the bar chart of the NaN rate for all columns of the dataset, use the method `barchart_columns`. Make sure to call the nan_quote_df method first.
+To plot the bar chart of the NaN rate for all columns of the dataset, use the method `barchart_columns`. Make sure to call the `nan_quote_df` method first.
 
 ```
 nc_vis.barchart_columns(fig_lenght, fig_wide)
