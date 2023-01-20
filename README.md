@@ -81,7 +81,4 @@ nc_vis.barchart_infl_nan_columns(10, 5)
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+This package was insperated by me last analysis about the global suicide rates. I needed to analyze the NaN rates of my columns, but there was no modul in Pandas or Python to do this. Long story short, I designed  my own function for my needs. I hope that I can help others with this package too!
