@@ -7,7 +7,7 @@
 
 The package can be installed using pip:
 ```
-pip install NaN_Rate_Calc_Vis
+pip install NaN-Rate-Calc-Vis
 ```
 ## Usage
 
