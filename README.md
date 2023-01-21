@@ -18,7 +18,7 @@ import NaN_Rate_Calc_Vis as nc
 df = pd.read_csv("data.csv")
 nc_vis = nc.NaN_Rate_Calc_Vis(df)
 ```
-## Calculate the NaN-Quote of the whole dataframe
+## Calculate The NaN Quote Of The Whole Dataframe
 
 To calculate the NaN-Quote of each column in a  dataframe, use the method `nan_quote_df`
 ```
@@ -26,7 +26,7 @@ nc_vis.nan_quote_df()
 ```
 This method returns a dictionary with the columns as keys and the corresponding NaN-rate.
 
-## Plot the bar chart of the NaN rate for all columns of the dataset
+## Plot The Bar Chart Of The NaN Rate For All Columns Of The Dataset
 
 To plot the bar chart of the NaN rate for all columns of the dataset, use the method `barchart_columns`. Make sure to call the `nan_quote_df` method first.
 
@@ -36,7 +36,7 @@ nc_vis.barchart_columns(fig_lenght, fig_wide)
 
 The `fig_lenght` and `fig_wide` parameters define the size of the plotted figure.
 
-## Create a dictonary that shows the nan quote of one column related to the other column
+## Create A Dictonary That Shows The NaN Quote Of One Column Related To The Other Column
 
 To create a dictonary that shows the nan quote of one column related to the other column, use the method `infl_nan_columns`.
 
@@ -51,9 +51,9 @@ This method takes two parameters:
 
 It returns a dictionary with the unique values of a column as keys and the nan rates of the corresponding `na_column`.
 
-## Plot the barchart of the NaN rate for all columns of the dataset
+## Plot The Barchart Of The NaN Rate Of One Column Depending On Another
 
-To plot the barchart of the NaN rate for all columns of the dataset, use the method `barchart_infl_nan_columns`. Make sure to call the `infl_nan_columns` method first.
+To plot the barchart of the NaN rate of one column depending on another, use the method `barchart_infl_nan_columns`. Make sure to call the `infl_nan_columns` method first.
 
 ```
 nc_vis.barchart_infl_nan_columns(fig_lenght, fig_wide)
