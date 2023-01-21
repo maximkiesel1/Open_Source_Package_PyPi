@@ -1,7 +1,7 @@
 ![irvan-smith-cwqG1N1AtI0-unsplash](https://user-images.githubusercontent.com/119667336/213816542-efbb9f68-4fa3-4126-ab01-7afcec1faeba.jpg)
 
 
-# PyPi Package: NaN value analysis and visualization tool
+# PyPi Package: NaN Value Analysis And Visualization Tool
 
 ## Installation
 
