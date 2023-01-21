@@ -20,7 +20,7 @@ nc_vis = nc.NaN_Rate_Calc_Vis(df)
 ```
 ## Calculate the NaN-Quote of the whole dataframe
 
-To calculate the NaN-Quote of the whole dataframe, use the method `nan_quote_df`
+To calculate the NaN-Quote of each column ina  dataframe, use the method `nan_quote_df`
 ```
 nc_vis.nan_quote_df()
 ```
