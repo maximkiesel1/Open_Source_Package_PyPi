@@ -10,10 +10,10 @@ pip install NaN_Rate_Calc_Vis
 
 To use the `NaN_Rate_Calc_Vis` class, you need to import the class and initialize it with a Dataframe.
 ```
-from NaN_Rate_Calc_Vis import NaN_Rate_Calc_Vis as nc
+from NaN_Rate_Calc_Vis import NaN_Rate_Calc_Vis
 
 df = pd.read_csv("data.csv")
-nc_vis = nc.NaN_Rate_Calc_Vis(df)
+nc_vis = NaN_Rate_Calc_Vis(df)
 ```
 ## Calculate The NaN Quote Of The Whole Dataframe
 
@@ -61,11 +61,11 @@ The `fig_lenght` and `fig_wide` parameters define the size of the plotted figure
 ## Example
 
 ```
-from NaN_Rate_Calc_Vis import NaN_Rate_Calc_Vis as nc
+from NaN_Rate_Calc_Vis import NaN_Rate_Calc_Vis
 import pandas as pd
 
 df = pd.read_csv("data.csv")
-nc_vis = nc.NaN_Rate_Calc_Vis(df)
+nc_vis = NaN_Rate_Calc_Vis(df)
 
 nc_vis.nan_quote_df()
 nc_vis.barchart_columns(10, 5)
