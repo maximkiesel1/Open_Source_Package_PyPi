@@ -10,7 +10,7 @@ pip install NaN_Rate_Calc_Vis
 
 To use the `NaN_Rate_Calc_Vis` class, you need to import the class and initialize it with a Dataframe.
 ```
-import NaN_Rate_Calc_Vis as nc
+from NaN_Rate_Calc_Vis import NaN_Rate_Calc_Vis as nc
 
 df = pd.read_csv("data.csv")
 nc_vis = nc.NaN_Rate_Calc_Vis(df)
@@ -61,7 +61,7 @@ The `fig_lenght` and `fig_wide` parameters define the size of the plotted figure
 ## Example
 
 ```
-import NaN_Rate_Calc_Vis as nc
+from NaN_Rate_Calc_Vis import NaN_Rate_Calc_Vis as nc
 import pandas as pd
 
 df = pd.read_csv("data.csv")
