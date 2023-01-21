@@ -7,18 +7,32 @@
 
 The package can be installed using pip:
 ```
-pip install NaN-Rate-Calc-Vis
+pip install NaN_Rate_Calc_Vis
 ```
 The package `pandas` and `matplotlib.pyplot`should be preinstalled.
 ## Usage
 
 To use the `NaN_Rate_Calc_Vis` class, you need to import the class and initialize it with a Dataframe.
 ```
-from NaN_Rate_Calc_Vis import NaN_Rate_Calc_Vis
+from NaN_Rate_Calc_Vis.NaN_Rate_Calc_Vis import NaN_Rate_Calc_Vis
 
 df = pd.read_csv("data.csv")
 nc_vis = NaN_Rate_Calc_Vis(df)
 ```
+
+## Troubleshooting Importing the Module
+If the following error appear.
+```
+ModuleNotFoundError: No module named 'NaN_Rate_Calc_Vis'
+```
+
+You need to use this to solve the problem.
+```
+import sys
+sys.path.append('path/to/module')
+
+```
+
 ## Calculate The NaN Quote Of The Whole Dataframe
 
 To calculate the NaN-Quote of each column in a  dataframe, use the method `nan_quote_df`
