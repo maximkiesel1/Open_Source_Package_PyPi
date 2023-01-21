@@ -9,6 +9,7 @@ The package can be installed using pip:
 ```
 pip install NaN-Rate-Calc-Vis
 ```
+The package `pandas` and `matplotlib.pyplot`should be pre installed.
 ## Usage
 
 To use the `NaN_Rate_Calc_Vis` class, you need to import the class and initialize it with a Dataframe.
