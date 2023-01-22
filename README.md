@@ -26,7 +26,7 @@ If the following error appear.
 ModuleNotFoundError: No module named 'NaN_Rate_Calc_Vis'
 ```
 
-You need to use this to solve the problem.
+You can use the following to solve the problem.
 ```
 import sys
 sys.path.append('path/to/module')
